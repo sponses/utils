@@ -20,4 +20,4 @@ function gcd_miuns(a, b) {
   return a > b ? gcd_miuns(a - b, b) : gcd_miuns(a, b - a)
 }
 
-export default { gcd_division, gcd_miuns }
+export { gcd_division, gcd_miuns }
